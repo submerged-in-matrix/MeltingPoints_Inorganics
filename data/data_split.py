@@ -1,6 +1,7 @@
 from env.modules import *
 from featurize.featurize_custom import X, y
 from data.data_cleaning import df
+from utils.repro_set_up import rng
 
 # --- 3. Train-Test Split ---
 X_temp, X_unseen, y_temp, y_unseen = train_test_split(
